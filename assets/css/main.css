@@ -72,6 +72,24 @@ input, select, textarea {
 	appearance: none;
 }
 
+.project-img img {
+    width: 250px;
+    transition: 0.7s;
+}
+
+.project-img:hover {
+    position: relative;
+    right: 75px;
+    transition: 0.7s;
+}
+
+.project-img img:hover {
+    position: sticky;
+    width: 450px;
+    transition: 0.7s;
+    /* z-index: 100; */
+}
+
 /* Basic */
 
 	@-ms-viewport {
