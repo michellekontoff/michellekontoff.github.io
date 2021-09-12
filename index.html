@@ -63,73 +63,56 @@
 								<ul class="features">
 									<li>
 										<span class="project-img"><img src="images/babelingbook.png" alt="babeling book" /></span>
-										<h3>Babeling Book</h3>
-										<em>A single-page blogging site with posts and comments</em>
-                                        <br>
-                                            <br>Constructed a React Context Provider that fetches and stores a post’s comments that enables the comment subcomponents to universally access to the list of comments and fetch the new list when comments are edited or added</br>
-                                            <br>Incorporated local storage to remember whether the sidebar was open when the user refreshes the page or navigates backwards for a fluid user experience</br>
-                                            <br>Implemented classy slide-in effect for the sidebar on login and sign up that incorporates React state and CSS transitions for improved aesthetic</br>
+										<h2>Babeling Book</h2>
+                                        <div class="project-links">
+                                            <a href="https://babelingbook.herokuapp.com/" target="_blank">live</a> | <a href="https://github.com/michellekontoff/babeling-book/blob/main/README.md" target="_blank">github</a>
+                                        </div>
+                                            <b><em>A single-page blogging site with posts and comments</b></em>
+                                        <p><br>
+                                            The site is for people to practice writing in a foreign language about the things they care about and get helpful feedback from members of the community so they can improve their grammar and spelling. Currently, users can create an account and log in to make posts and leave comments.
+                                        </p>
 									</li>
 									<li>
 										<span class="project-img"><img src="images/pokeprobe.png" alt="pokeprobe" /></span>
-										<h3>PokeProbe</h3>
-										<em>Product Hunt clone where users catch and make profiles for the Pokemon they catch</em>
+										<h2>PokeProbe</h2>
+                                        <div class="project-links">
+                                            <a href="https://pokeprobe.herokuapp.com/" target="_blank">live</a> | <a href="https://github.com/jyih/pokeprobe/blob/main/README.md" target="_blank">github</a>
+                                        </div>
+										<em><b>Product Hunt clone where users catch and make profiles for the Pokemon they catch</em></b>
                                         <br>
-                                            <br>Manipulated the DOM to implement frontend validation of forms, ensuring input data was not lost by the page refreshing on submit</br>
-                                            <br>Incorporated event listeners to dynamically update the caught Pokemon’s name on the screen as the user typed it</br>
-                                            
+                                        <br>
+                                            Users can catch wild, randomly generated Pokemon fusions. If they don't like the Pokemon they first see, they can run away and try again. They can then name these pokemon and create profiles for them that include a description and the element types the Pokemon is made of.
 									</li>
 									<li>
 										<span class="project-img"><img src="images/spudhub.png" alt="spudhub" /></span>
-										<h3>SpudHub</h3>
-										<em>A single-page Etsy clone to buy and sell produce</em>
+										<h2>SpudHub</h2>
+                                        <div class="project-links">
+                                            <a href="https://spudhub.herokuapp.com/" target="_blank">live</a> | <a href="https://github.com/michellekontoff/spudhub/blob/main/README.md" target="_blank">github</a>
+                                        </div>
+										<em><b>A single-page Etsy clone to buy and sell <strike>overpriced</strike> produce</em></b>
                                         <br>
-                                            <br>Spearheaded implementation of a shopping cart that utilizes local storage and the Redux store to dynamically update and save its contents, so they can be loaded them even when the page refreshes or after the user logs out then in again</br>
-                                            <br>Designed Flask model relationships that link orders and the products therein through an order details joins table, which sets products as a property of order, thereby streamlining queries and displaying a user’s order history</br>
-                                            <br>Built custom React hooks to handle shopping cart CRUD functions which keep code DRY.</br>
+                                        <br>
+                                            Users/stores to can add produce they want to sell. Users can also add and remove products from their shopping cart. The shopping cart persists even if the user logs out and in again, or if the user refreshes the page.
 
 									</li>
 								</ul>
 								<footer class="major">
-									<ul class="actions special">
+									<!-- <ul class="actions special">
 										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
+									</ul> -->
 								</footer>
 							</section>
 
 						<!-- Second Section -->
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Resume</h2>
+									<p>To learn more about my skills and my contact information, please see my resume.</p>
 								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon solid fa-code-branch"></span>
-										<strong>5,120</strong> Etiam
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open"></span>
-										<strong>8,192</strong> Magna
-									</li>
-									<li class="style3">
-										<span class="icon solid fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon solid fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-gem"></span>
-										<strong>1,024</strong> Nullam
-									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								
 								<footer class="major">
 									<ul class="actions special">
-										<li><a href="generic.html" class="button">Learn More</a></li>
+										<li><a href="./resume.pdf" class="button">My Resume</a></li>
 									</ul>
 								</footer>
 							</section>
@@ -153,7 +136,7 @@
 
 				<!-- Footer -->
 					<footer id="footer">
-						<section>
+						<!-- <section>
 							<h2>Aliquam sed mauris</h2>
 							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
 							<ul class="actions">
@@ -177,7 +160,7 @@
 								<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
 								<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
 							</ul>
-						</section>
+						</section> -->
 						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
