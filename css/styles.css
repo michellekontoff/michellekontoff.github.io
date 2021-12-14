@@ -12,11 +12,11 @@
  */
 
  .project-img {
-     max-width: 600px;
+     max-width: 100%;
  }
 
  .project-desc {
-     margin-top: 50px;
+     margin-top: 2rem;
  }
 
  .project-links {
@@ -7052,8 +7052,9 @@ textarea.form-control-lg {
 }
 
 .flex-shrink-0 {
-  flex-shrink: 0 !important;
-  max-width: 450px;
+  /* flex-shrink: 0 !important; */
+  max-width: 50%;
+  margin: 1rem 1rem;
 }
 
 .flex-shrink-1 {
