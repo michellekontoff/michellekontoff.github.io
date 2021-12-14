@@ -12,7 +12,7 @@
  */
 
  .project-img {
-     max-width: 100%;
+     max-width: 30vw;
  }
 
  .project-desc {
@@ -7059,6 +7059,7 @@ textarea.form-control-lg {
 
 .flex-shrink-1 {
   flex-shrink: 1 !important;
+  max-width: 50%;
 }
 
 .flex-wrap {
