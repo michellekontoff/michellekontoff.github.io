@@ -14,6 +14,13 @@
  .project-img {
      max-width: 600px;
  }
+
+ .project-links {
+     /* padding-left: 100px; */
+     text-align: center;
+     font-size: larger;
+ }
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
